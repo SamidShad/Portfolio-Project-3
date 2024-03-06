@@ -23,7 +23,7 @@ function Home() {
                 Discover homes tailored to you. Your perfect property is just a
                 click away. Start your search today!
               </p>
-              <Link href="/components/Properties">
+              <Link href="/Properties">
                 <button className={`${styles.home_section_btn} btn`}>
                   Expolre
                 </button>
