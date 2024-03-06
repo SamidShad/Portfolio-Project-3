@@ -1,0 +1,117 @@
+.contact_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_container {
+  max-width: 1500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 170px;
+}
+
+.contact_side_image {
+  width: 800px;
+  height: 600px;
+}
+
+.contact_card_container h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  margin-left: 10px;
+}
+
+.contact_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.contact_inputs {
+  background-color: #f1f1f1;
+  resize: none;
+  padding: 15px;
+  margin: 10px;
+  width: 400px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.contact_send_btn {
+  margin: 10px 0px 0px 10px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .contact_side_image {
+    width: 700px;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .contact_area {
+    margin-top: 100px;
+  }
+
+  .contact_container {
+    max-width: 900px;
+    width: 100%;
+  }
+
+  .contact_side_image {
+    position: absolute;
+    width: 800px;
+    height: 700px;
+    transform: translateX(-150px);
+    z-index: -1;
+  }
+
+  .contact_card_container {
+    background: rgba(255, 255, 255, 0.742);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 30px;
+  }
+
+  .contact_card_container h1 {
+    color: #000;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .contact_card_container h1 {
+    font-size: 25px;
+    margin: 0px;
+  }
+
+  .contact_side_image {
+    width: 600px;
+    height: 500px;
+  }
+
+  .contact_card_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .contact_inputs {
+    width: 200px;
+  }
+
+  .contact_send_btn {
+    margin-top: 10px;
+  }
+}

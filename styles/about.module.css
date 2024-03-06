@@ -1,0 +1,113 @@
+.about_area {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_container {
+  max-width: 1500px;
+  width: 100%;
+  display: flex;
+  margin: 150px 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.agent_image {
+  height: 600px;
+  width: 415px;
+}
+
+.about_text_container {
+  max-width: 800px;
+  width: 100%;
+  margin: 50px;
+}
+
+.about_text_container h1:nth-child(1) {
+  font-family: "Poppins", sans-serif;
+}
+
+.about_text_container h1:nth-child(2) {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 60px;
+  margin: 20px 0px 20px 0px;
+  font-weight: lighter;
+}
+
+.about_text_container p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1450px) {
+  .about_container {
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .about_container {
+    justify-content: space-between;
+  }
+
+  .about_text_container h1:nth-child(1) {
+    font-size: 30px;
+  }
+
+  .about_text_container h1:nth-child(2) {
+    font-size: 50px;
+  }
+
+  .about_text_container p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .about_container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .about_image_container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 900px;
+  }
+
+  .about_text_container {
+    margin: 50px 10px;
+    max-width: 900px;
+    width: 100%;
+  }
+
+  .agent_image {
+    height: 700px;
+    max-width: 500px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .about_text_container h1:nth-child(1) {
+    font-size: 25px;
+  }
+
+  .about_text_container h1:nth-child(2) {
+    margin: 10px 0px 10px 0px;
+    font-size: 35px;
+  }
+
+  .about_text_container p {
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+
+  .agent_image {
+    height: 100%;
+    width: 100%;
+  }
+}

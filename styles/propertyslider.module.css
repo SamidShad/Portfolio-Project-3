@@ -1,0 +1,38 @@
+.slider_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider_container {
+  max-width: 1500px;
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+.slider_container h1 {
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+}
+
+.sliders {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1180px) {
+  .slider_container {
+    max-width: 900px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .property_slider h1 {
+    font-size: 30px;
+  }
+}
